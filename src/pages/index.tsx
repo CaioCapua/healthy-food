@@ -11,9 +11,9 @@ import recipePotato from "../../public/images/comida_3.svg";
 import recipeCherry from "../../public/images/comida_4.svg";
 
 import quickStart from "../../public/images/blog_image_1.svg"
-import quickStart2 from "../../public/images/bloco_image_2.svg"
-import quickStart3 from "../../public/images/bloco_image_3.svg"
-import quickStart4 from "../../public/images/bloco_image_4.svg"
+import nutrution from "../../public/images/bloco_image_2.svg"
+import top10 from "../../public/images/bloco_image_3.svg"
+import whatMakes from "../../public/images/bloco_image_4.svg"
 
 import { ProductCard } from '../components/OurProducts'
 
@@ -58,21 +58,21 @@ export default function Home() {
   },
   {
     title: 'Nutrution: Tips for Improving Your Health',
-    postImg: quickStart2,
+    postImg: nutrution,
     userName: 'Mike Jackson',
-    userImg: quickStart
+    userImg: nutrution
   },
   {
     title: 'The top 10 benefits of eating healthy',
-    postImg: quickStart3,
+    postImg: top10,
     userName: 'Bryan McGregor',
-    userImg: quickStart
+    userImg: top10
   },
   {
     title: 'What Makes a Healthy Diet?',
-    postImg: quickStart4,
+    postImg: whatMakes,
     userName: 'Jashua',
-    userImg: quickStart
+    userImg: whatMakes
   }];
 
   const bestRecipes = [{
