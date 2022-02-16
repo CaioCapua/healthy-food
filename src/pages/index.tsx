@@ -100,7 +100,7 @@ export default function Home() {
       <Header />
       <main className={styles.contentContainer}>
         <section className={styles.contentIntroduction}>
-          <img className={styles.imageIllustration} src='/images/illustration.svg' alt="Imagem illustrativa introdução" />
+          <img className={styles.imageIllustration} src='images/illustration.svg' alt="Imagem illustrativa introdução" />
           <div className={styles.content}>
             <h1>
               Ready for <br />
