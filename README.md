@@ -1,7 +1,11 @@
 
 ## Vamos lá!
 
-Primeiro, rode um dos comandos abaixos para que seja feito o download das dependencias.
+Antes de tudo, é necessário que você tenha o git instalado, com isso, basta clonar o repositório.
+
+`https://github.com/CaioCapua/healthy-food.git`
+
+Com algum derenciador de pacote, seja ele Yarn ou npm, rode um dos comandos abaixo.
 
 ```bash
 npm run dev
@@ -9,6 +13,8 @@ npm run dev
 yarn dev
 ```
 
-Feito o passo acima, basta acessar a seguinte URL:
-[http://localhost:3000](http://localhost:3000)
+Feito isso, basta iniciar o projeto com `yarn dev` e acessar [http://localhost:3000](http://localhost:3000)
+para que possa visualizar o projeto!
+
+
 
