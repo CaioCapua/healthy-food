@@ -5,7 +5,7 @@ Antes de tudo, é necessário que você tenha o git instalado, com isso, basta c
 
 `https://github.com/CaioCapua/healthy-food.git`
 
-Com algum derenciador de pacote, seja ele Yarn ou npm, rode um dos comandos abaixo.
+Com algum gerenciador de pacote, seja ele Yarn ou npm, rode um dos comandos abaixo.
 
 ```bash
 npm run dev
