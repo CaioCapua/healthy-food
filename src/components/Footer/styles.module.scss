@@ -1,0 +1,21 @@
+.footerContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 103px;
+  
+    p {
+      color: var(--gray-700);
+    }
+  
+    a{
+      color: var(--gray-300);
+  
+      & + a {
+        margin-left: 1rem;
+      }
+    }
+  }

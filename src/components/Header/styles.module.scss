@@ -1,0 +1,128 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.headerContent {
+    height: 6.4rem;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+    
+    h1 {
+        font: 700 2rem "Roboto";
+        color: var(--green-primary);
+    }
+
+    button {
+        display: none;
+    }
+
+    nav {
+        a {
+            font-weight: 700;
+            color: #fff;
+            transition: color 0.3s;
+            cursor: pointer;
+            
+            & + a {
+                margin-left: 2rem;
+            }
+            
+            &:hover {
+                color: var(--green-primary-400);
+            }
+            
+            &:last-child {
+                font-weight: 700;
+                margin-left: 1.5rem;
+                background: var(--shape-white);
+                color: var(--green-primary);
+                border: none;
+                border-radius: 5px;
+                padding: 1rem 1.5rem;
+                transition: filter 0.2s;
+        
+                &:hover {
+                  filter: brightness(1.05);
+                } 
+            }
+        }
+    }
+}
+
+@media(max-width: 855px) {
+    .headerContainer, .headerContent {
+        button {
+            display: block;
+            color: var(--green-primary);
+            padding: 5px;
+            background: var(--shape-white);
+            border: none;
+            text-align: center;
+            z-index: 999999;
+            background: none;
+
+            &:hover {
+                filter: brightness(1.25);
+            }
+        }
+        nav {
+            position: absolute;
+            left: -868px;
+            top: 0;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            background: rgba(rgb(62, 133, 59), 0.9);
+            overflow: hidden;
+            gap: 3rem;
+
+            transition: transform 0.5s;
+
+            a {
+                text-align: center;
+                color: var(--green-primary);
+                border: 1px solid var(--green-primary);
+                border-radius: 50px;
+                padding: 1rem;
+                width: 50%;
+        
+                transition: background 0.2s;
+
+                & + a {
+                  margin: 0;
+                }
+
+                &:hover {
+                    background: var(--green-primary);
+                    color: var(--shape-white);
+                }
+              }
+        
+              a:last-child {
+                width: 50%;
+                margin: 0;
+                background-color: var(--green-primary);
+                color: var(--shape-white);
+            }
+        }
+
+        .navbar {
+            transform: translateX(855px);
+        }
+        
+    }
+}
