@@ -15,8 +15,7 @@ export default function Signup() {
           <img src="images/bloco_services.svg" alt="Ilustração simbolizando um app de comidas saudaveis" />
         </aside>
         <main>
-          <strong>Come be <span>Healthy</span></strong>
-          <p>You can Be Happy</p>
+          <strong>Come be happy with the <span>Healthy Food</span></strong>
           <div>
             <SignupForm />
           </div>
