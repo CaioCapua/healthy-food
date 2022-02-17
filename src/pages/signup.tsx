@@ -10,7 +10,7 @@ export default function Signup() {
       </aside>
       <main>
         <strong>Come be healthy</strong>
-        <p>Can you be happy & healthy</p>
+        <p>You can Happy</p>
         <div>
           <SignupForm />
         </div>
