@@ -13,7 +13,7 @@ npm run dev
 yarn dev
 ```
 
-Feito isso, basta iniciar o projeto com `yarn dev` e acessar [http://localhost:3000](http://localhost:3000)
+Feito isso, basta rodar o comando `yarn` para instalar as dependencias e logo após isso, execute o comando `yarn dev` para iniciar o projeto e acesse [http://localhost:3000](http://localhost:3000)
 para que possa visualizar o projeto!
 
 
